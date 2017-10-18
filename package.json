@@ -1,0 +1,15 @@
+{
+  "name": "docker_node_express",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Kevin Baker <kbaker@atomeq.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "docker:build": "docker build -t kevbaker/node-node-express ."
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "json": "^9.0.6"
+  }
+}
