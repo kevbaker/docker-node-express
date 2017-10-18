@@ -4,10 +4,17 @@
 
 Simple  "Hello World" Node/Express app running on Docker.
 
+## Docker
 
-## Build Docker Image
+### Build Image
 
-`docker build -t kevbaker/node-web-app .`
+`docker build -t kevbaker/node-express .`
+
+
+
+### Run Container
+
+`docker run -p 3000:3000 -d kevbaker/node-express`
 
 
 
